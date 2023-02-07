@@ -1,0 +1,244 @@
+@font-face {
+    font-family:'idroid' ;
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-size: normal;
+}
+
+*{
+
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+
+}
+/*======================CSS CABECALHO==================================================*/
+
+
+header{
+    background:linear-gradient(to bottom, rgb(46, 214, 46), rgba(3, 41, 3, 0.815));
+
+}
+
+header> h1{
+    font-family: 'Staatliches', cursive;
+    text-align: center;
+    color:#fffbfbf3;
+    font-weight: normal;
+    font-size:50px;
+    padding-top: 10px;
+        
+}
+
+
+
+header> h4{
+    text-align: center;
+    padding: 10px;
+    color: rgb(241, 240, 240);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: normal;  
+    font-size: 15px;
+    padding-bottom: 30px;  
+
+}
+
+nav{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 11px;
+    font-weight:bold;
+    text-decoration: none;
+    padding: 10px;
+    
+}
+
+nav > a:hover{
+    background: rgba(16, 204, 72, 0.253);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+nav > a:link{
+    
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    
+}
+
+nav > a:visited{
+    color: white;
+}
+
+
+/*======================CSS MAIN==================================================*/
+
+.sobreposicao{
+    background: white;
+    box-shadow: 1px 1px 20px 1px black;
+    border-radius: 2px 2px;
+    
+    
+}
+
+main{
+    padding: 0px 100px 15px 100px;
+    background:rgb(195, 221, 195);
+    
+   
+}
+
+main > p {
+    text-indent: 20px;
+    text-align: justify;
+}
+
+strong{
+    color:green;
+    text-decoration: none;
+    
+}
+
+strong > a:link{
+    text-decoration: none;
+    color: green;
+    
+}
+
+strong > a:visited{
+    text-decoration: none;
+    color: green;
+    
+}
+
+
+
+
+.links a:hover{
+    text-decoration: underline;
+}
+
+.titulo-secundario {
+    font-family: idroid;
+    color: green;
+    padding: 20px;
+    
+}
+
+.content{
+    padding: 10px;
+    text-indent: 30px;
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    
+    
+}
+
+.titulo-secundario2 {
+    font-family:idroid ;
+    color: green;
+    background:linear-gradient(to right , rgba(65, 221, 65, 0.253), white);
+    margin-left: 20px;
+}
+
+.droid,.irina{
+    width: 100%;
+    margin:auto;
+    padding: 15px;
+}
+.bugdroid{
+    display: block;
+    margin:auto
+    
+    
+}
+
+.video{
+    background: darkgreen;
+  
+}
+
+iframe{
+    margin:auto;
+    display: block;
+    padding: 15px;
+    
+}
+
+
+.quarta{
+    margin: auto;
+    display: block;  
+    padding: 10px;  
+    
+    
+}
+
+.quarta > h2{
+    background-color: green;
+    border-radius: 1px 1px;    
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    border-radius: 2px;
+    padding: 10px;
+    
+}
+
+.final{
+    background: rgb(203, 226, 226);
+    border-radius: 0px 0px 3px 3px ;
+    font-size: 14px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+
+li::before{
+    content: "✓ ";
+}
+
+li{
+    list-style: none;
+   
+}
+
+.lista1{
+    display: inline-block;
+    width: 50%;
+    
+    
+    
+}
+
+.lista2 {
+    display: block;  
+    width: 50%;
+    float:right;
+   
+}
+
+
+/*======================CSS Footer==================================================*/
+
+footer{
+    background:rgb(47, 56, 47);
+    color: white;
+    font-size:15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding:8px;   
+}
+
+.creditos{
+    text-decoration: none;
+    color: white;
+}
+
+.creditos:hover{    
+    text-decoration: underline;
+}   
+
+.creditos:visited{
+    text-decoration: none;
+}
